@@ -17,7 +17,7 @@ run: $(DIST_BINARY)
 	./$(DIST_BINARY)
 
 $(TEST_BINARY): $(SRC_FILE) $(TEST_FILE)
-	ocamlfind ocamlopt -g -package oUnit,bisect -linkpkg -pp 'camlp4o str.cma `ocamlfind query bisect`/bisect_pp.cmo -exclude "test_.*"' $(SRC_FILE) $(TEST_FILE) -o $(TEST_BINARY)
+	ocamlfind ocamlopt -g -package oUnit,bisect -linkpkg -syntax camlp4o $(SRC_FILE) $(TEST_FILE) -o $(TEST_BINARY)
 
 test: $(TEST_BINARY)
 	rm -rf bisect*.out $(COVERAGE_DIR)

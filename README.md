@@ -1,4 +1,4 @@
-# ocaml-boilerplate [![Build Status](https://img.shields.io/travis/yuanqing/ocaml-boilerplate.svg?branch=master&style=flat)](https://travis-ci.org/yuanqing/ocaml-boilerplate)
+# ocaml-boilerplate [![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg?style=flat)](https://github.com/yuanqing/ocaml-boilerplate/releases) [![Build Status](https://img.shields.io/travis/yuanqing/ocaml-boilerplate.svg?branch=master&style=flat)](https://travis-ci.org/yuanqing/ocaml-boilerplate)
 
 > A boilerplate for writing [OCaml](https://ocaml.org) modules, with [OUnit](http://ounit.forge.ocamlcore.org) for tests and [Bisect](http://bisect.x9c.fr) for code coverage, plus integration with [Travis-CI](https://travis-ci.org).
 
@@ -19,6 +19,11 @@ $ make
 ```
 
 The module name and various paths/files are all specified at the top of the [Makefile](https://github.com/yuanqing/ocaml-boilerplate/blob/master/Makefile).
+
+## Changelog
+
+- 0.1.0
+  - Initial release
 
 ## License
 

@@ -1,0 +1,6 @@
+.DS_Store
+*.cm*
+*.o
+*.out
+coverage/
+oUnit-anon.cache

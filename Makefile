@@ -10,7 +10,7 @@ COVERAGE_DIR = coverage/
 
 all: test
 
-$(DIST_BINARY): $(SRC_FILE) $(TEST_FILE)
+$(DIST_BINARY): $(SRC_FILE)
 	ocamlfind ocamlopt -g $(SRC_FILE) -o $(DIST_BINARY)
 
 run: $(DIST_BINARY)

@@ -25,6 +25,6 @@ test: $(TEST_BINARY)
 	bisect-report bisect0001.out -html $(COVERAGE_DIR)
 
 clean:
-	rm -rf *.cm* *.o *.out oUnit-anon.cache $(DIST_BINARY) $(TEST_BINARY) $(COVERAGE_DIR)
+	rm -rf *.cache *.cm* *.log *.o *.out $(DIST_BINARY) $(TEST_BINARY) $(COVERAGE_DIR)
 
 .PHONY: all, run, test, clean

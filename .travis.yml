@@ -13,4 +13,4 @@ install:
 #script:
 #  - make
 
-script: bash -ex .travis-ci.sh
+script: bash .travis-ci.sh

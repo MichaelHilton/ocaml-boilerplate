@@ -1,4 +1,4 @@
-bash .travis-install.sh
+#bash .travis-install.sh
 cd ./src
-bash ./build.sh
+./build.sh
 #bash test.sh
